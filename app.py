@@ -63,7 +63,7 @@ def main():
     vectors.save_local(DB_FAISS_PATH)
     
     # Initialize ChatGroq with FAISS vectors
-    groq_api_key = "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"
+    groq_api_key = "YOUR_GROQ_API_KEY"
     chat_groq = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
     
     # Prompt template for ChatGroq
